@@ -1,23 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quote Generator</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+        crossorigin="anonymous" />
 </head>
+
 <body>
     <div class="quote-container" id="quote-container">
         <!-- Quote -->
         <div class="quote-text">
             <i class="fas fa-quote-left"></i>
-            <span id="quote">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente incidunt adipisci esse repellendus pariatur eius.</span>
+            <span id="quote"></span>
         </div>
         <!-- Author -->
         <div class="quote-author">
-            <span id="author">Buddha</span>
+            <span id="author"></span>
         </div>
         <!-- Button -->
         <div class="button-container">
@@ -26,9 +30,13 @@
             </button>
             <button id="new-quote">New Quote</button>
         </div>
+        <footer> &copy; AK &#10084;</footer>
     </div>
+    <!-- Loader -->
+    <div class="loader" id="loader"></div>
+   
     <!-- Scrpit -->
     <script src="script.js"></script>
 </body>
-</html>
 
+</html>
